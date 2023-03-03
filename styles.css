@@ -1,0 +1,247 @@
+*{
+    padding:0;
+    border:0;
+    list-style-type:none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.header{
+   position:relative;
+   background-image:url(./bmw-imagen.jpg);
+   background-size:cover;
+   height: 600px;
+   background-repeat:no-repeat;
+}
+.header__navbar{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.nav-border{
+    position:absolute;
+    top:60px;
+    left:300px;
+    width: 850px;
+    border-bottom: 1px solid whitesmoke;
+}
+.navbar__list-menu{
+    margin-top:30px;
+    display:flex;
+    flex-direction:row;
+    gap:10%;
+    
+}
+.navbar__list-anchors{
+    display:flex;
+    flex-direction:row;
+}
+.list-menu__item{
+    font-weight: bold;
+    color:whitesmoke;
+    white-space:nowrap;   
+}
+.list-anchors__item{
+    width: 48px;
+    height: 48px;
+}
+.list-anchors__item--bmw{
+    width: 53px;
+    height: 53px;
+}
+.item__image{
+    width: 100%;
+}
+.header__bottom{
+    position:absolute;
+    bottom:5%;
+    left:100px;
+    display:block;
+}
+.header__button{
+    width: 300px;
+    height: 50px;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: rgb(9, 111, 145);
+    
+}
+.header__bottom__paragraph1{
+    font-size: 40px;
+    font-weight: bold;
+    color:whitesmoke;
+    margin:5px;
+}
+.header__bottom__paragraph2{
+    font-size: 25px;
+    font-weight: bold;
+    color:whitesmoke;
+    margin:5px;
+}
+.main-container{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:200px;
+    margin-left:250px;
+    width: 1200px;
+    box-sizing: border-box;
+}
+.title-menu{
+    font-size:20px;
+    color:grey;
+    font-weight: bold;
+}
+.title-menu__list{
+    display:flex;
+    flex-direction: row;
+}
+.list__item{
+    margin:30px;
+}
+h2{
+    font-size:20px;
+    color:grey;
+    font-weight: bold;
+}
+.gallery__list{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.list__car{
+    width: 250px;
+    font-weight: bold;
+    margin-left:20px;
+}
+.images__block{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.car__image{
+    width: 100%;    
+}
+.car__options{
+    margin-top:10px;
+}
+.image__paragraph--name{
+    margin:0;
+    font-size:25px;
+}
+.image__paragraph--price{
+    margin:0;
+    font-size:15px;
+    color:rgb(178, 167, 167);
+}
+.paragraph__logo{
+    max-height: 12px;
+    opacity: 0.5;
+}
+.option__image{ 
+    margin-top:5px;
+    margin-right:5px;
+    max-height: 10px;
+    float:left;
+}
+.block__item{
+  margin-left:20px;
+  max-width:250px;
+}
+.gallery-secondary{
+    margin-top: 150px;
+}
+.item__paragraph--big{
+    margin-left:20px;
+    font-weight: bold;
+    font-size:x-large;
+    width:auto;
+}
+.item__paragraph--small{
+    margin-left:20px;
+    font-weight: bold;
+    color:grey;
+    font-size:small;
+    max-width:250px;
+}
+.item__paragraph--option{
+    margin-left:20px;
+    font-weight: bold;
+    font-size:medium;
+}
+.gallery-terciary{
+    margin-top:100px;
+}
+.item__imagen--grande{
+    margin-left:40px;
+    max-width: 500px;
+}
+.item__paragraph--grande{
+    margin-left:40px;
+    font-weight: bold;
+    font-size:x-large;
+    width:auto;
+}
+.item__paragraph--option-grande{
+    margin-left:40px;
+    margin-top:5px; 
+    margin-right:5px;
+    font-weight: bold;
+    max-height: 10px;
+    float:left;
+}
+.buttons-links{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(43, 39, 39);
+}
+.container-link{
+    margin-left:40px;
+    margin-top:100px;
+    margin-left:10px;
+    width:260px;
+    height: 100px;
+    background-color: rgb(157, 203, 192); 
+    
+}
+.link__imagen{
+    margin-left:20px;
+    margin-top:5px;
+    margin-right:5px;
+    max-height: 50px;
+}
+
+footer{
+    width: 100%;
+    align-content: center;
+    background-color: #E6E6E6;
+    margin-top:50px;
+  
+}
+.container-footer{
+    padding-top:100px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #E6E6E6;
+    justify-content: space-evenly;
+    
+}
+.footer__item__title{
+    font-weight: bold;
+}
+.footer__list--item
+{
+    color:#828080;
+    font-weight: bold;
+}
+.footer-border{
+position:absolute;
+margin-top:50px;
+left:200px;
+width:1100px;  
+border-bottom: 1px solid #828080;
+}
